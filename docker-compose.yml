@@ -70,4 +70,4 @@ networks:
 
 # Criar tópicos
 
-# docker-compose exec kafka kafka-topics --create --topic comics-topic --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:2181
+# docker-compose exec kafka kafka-topics --create --topic comics.topic --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:2181

@@ -1,0 +1,6 @@
+server:
+  port: 8081
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    comics: comics.topic
