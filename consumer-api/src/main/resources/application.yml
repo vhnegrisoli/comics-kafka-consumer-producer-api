@@ -4,3 +4,6 @@ kafka:
   bootstrap-servers: localhost:9092
   topic:
     comics: comics.topic
+  consumer:
+    group-id: kafka_group
+    auto-offset-reset: earliest
